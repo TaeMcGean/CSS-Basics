@@ -7,11 +7,11 @@ h1 {
   font-size: 5vw;
 }
 p {
-  color: rgb(230, 230, 230);
+  color: rgb(32, 32, 32);
   font-family: Arial, Helvetica, sans-serif;
 }
 body {
-  background-color: rgb(78, 161, 148);
+  background-color: rgb(133, 177, 170);
 }
 
 header {
@@ -21,7 +21,7 @@ header {
   display: inline-block;
 }
 h3 {
-  color: rgb(230, 230, 230);
+  color: rgb(32, 32, 32);
   font-family: Arial, Helvetica, sans-serif;
   display: inline;
   text-align: center;
