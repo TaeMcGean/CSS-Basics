@@ -29,3 +29,8 @@ ul {
   box-shadow: 5px 5px 5px black;
   text-decoration: none;
 }
+h2 {
+  color: rgb(230, 230, 230);
+  text-decoration: underline;
+  font-family: Arial, Helvetica, sans-serif;
+}
