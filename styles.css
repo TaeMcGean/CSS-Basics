@@ -14,9 +14,8 @@ p {
   font-family: Arial, Helvetica, sans-serif;
 }
 body {
-  background-image: url(images/DarkandLightBlue.webp);
+  background-image: linear-gradient(#0575e6, #021b79);
   background-size: cover;
-  background-color: rgb(78, 161, 148);
 }
 ul {
   list-style-type: none;
