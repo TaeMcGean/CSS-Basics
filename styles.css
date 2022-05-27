@@ -1,23 +1,35 @@
 h1 {
   color: rgb(230, 230, 230);
+  /* font-family describes which fonts you want your website to use. 
+  multiple fonts are listed so if a browser cannot use one, than you have backups.*/
   font-family: Arial, Helvetica, sans-serif;
+  /* display: inline-block is a styling that causes H1 tags to be displayed as an inline mark*/
   display: inline-block;
+  /* Self explanatory, text-align aligns the text to a portion of the page, in this case the center.*/
   text-align: center;
+  /* Font-size changes the font size*/
   font-size: 5vw;
   background-color: rgb(0, 43, 68);
+  /* Width and height are used to have the background of the H1 tag reach the whole of the words, and width to cover the page width-wise*/
   width: 100%;
   height: 100px;
+  /* text shadows give a shadow effect to the H1 background, giving depth*/
   text-shadow: 5px 5px rgb(93, 138, 168);
 }
 p {
   color: rgb(230, 230, 230);
+  /* font-family describes which fonts you want your website to use. 
+  multiple fonts are listed so if a browser cannot use one, than you have backups.*/
   font-family: Arial, Helvetica, sans-serif;
 }
 body {
+  /* Every version of background-image fuffils the same goal, to have a background image sent to the webpage. 
+  the difference between these is that each one customizes it for a different browser, so make sure no site is background-less*/
   background-image: linear-gradient(#0575e6, #021b79);
   background-image: -o-linear-gradient(#0575e6, #021b79);
   background-image: -webkit-linear-gradient(#0575e6, #021b79);
   background-image: -moz-linear-gradient(#0575e6, #021b79);
+  /* */
   background-size: cover;
 }
 ul {
@@ -31,6 +43,7 @@ ul {
   width: 100%;
   box-shadow: 10px 10px 10px black;
   text-decoration: none;
+  z-index: 3;
 }
 h2 {
   color: rgb(230, 230, 230);
