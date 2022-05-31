@@ -26,10 +26,12 @@ body {
   /* Every version of background-image fuffils the same goal, to have a background image sent to the webpage. 
   the difference between these is that each one customizes it for a different browser, so make sure no site is background-less*/
   background-image: linear-gradient(#bff2ff, #0575e6);
-  /* */
+  /* This tag ensures that the background will cover the entire screen, to make sure there is no jarring change in the background,
+   which would take away from the content.*/
   background-size: cover;
 }
 ul {
+  /* list-style-type refers to the styling that is inherent within the */
   list-style-type: none;
   margin: 0;
   padding: 10px;
