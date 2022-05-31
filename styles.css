@@ -31,7 +31,8 @@ body {
   background-size: cover;
 }
 ul {
-  /* list-style-type refers to the styling that is inherent within the */
+  /* list-style-type refers to the styling that is inherent within the UL elements. 
+  This is particular removes the underline from links in the navigation.*/
   list-style-type: none;
   margin: 0;
   padding: 10px;
