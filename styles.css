@@ -17,7 +17,7 @@ h1 {
   text-shadow: 5px 5px rgb(93, 138, 168);
 }
 p {
-  color: rgb(230, 230, 230);
+  color: rgb(24, 24, 24);
   /* font-family describes which fonts you want your website to use. 
   multiple fonts are listed so if a browser cannot use one, than you have backups.*/
   font-family: Arial, Helvetica, sans-serif;
@@ -25,10 +25,7 @@ p {
 body {
   /* Every version of background-image fuffils the same goal, to have a background image sent to the webpage. 
   the difference between these is that each one customizes it for a different browser, so make sure no site is background-less*/
-  background-image: linear-gradient(#0575e6, #021b79);
-  background-image: -o-linear-gradient(#0575e6, #021b79);
-  background-image: -webkit-linear-gradient(#0575e6, #021b79);
-  background-image: -moz-linear-gradient(#0575e6, #021b79);
+  background-image: linear-gradient(#bff2ff, #0575e6);
   /* */
   background-size: cover;
 }
@@ -46,7 +43,7 @@ ul {
   z-index: 3;
 }
 h2 {
-  color: rgb(230, 230, 230);
+  color: rgb(24, 24, 24);
   text-decoration: underline;
   font-family: Arial, Helvetica, sans-serif;
 }
