@@ -63,6 +63,7 @@ h2 {
   font-family: Arial, Helvetica, sans-serif;
 }
 a:link {
+  /* having text-decoration: none means that no decoration will take place in the links. No underlines, no boldings, nothing.*/
   text-decoration: none;
 }
 a:hover {
