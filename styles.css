@@ -31,31 +31,45 @@ body {
   background-size: cover;
 }
 ul {
-  /* list-style-type refers to the styling that is inherent within the UL elements. 
-  This is particular removes the underline from links in the navigation.*/
+  /* list-style-type refers to the styling that is inherent within the UL elements. */
   list-style-type: none;
+  /* A margin is the space around an elements border.*/
   margin: 0;
+  /* Padding is the space between the elements border and the concent within.*/
   padding: 10px;
+  /* background color does what it says it does, it places a background color onto the elements.*/
   background-color: rgb(69, 155, 212);
+  /* Normally, an element, once scrolled away from will dissapear until it is scrolled past again. 
+  "position: fixed;" changes this so that the element will stay with the screen */
   position: fixed;
   top: 0;
   width: 100%;
+  /* box shadow does about what you would expect. It creates a shadow around the sides of the element.*/
   box-shadow: 5px 5px 5px black;
+  /* This styling removes the underline from links in the navigation.*/
   text-decoration: none;
+  /* z-index refers to a visual heirarchy in which those with a higher number have a higher priority to be seen. 
+  For example, if a heading has a z-index of 1, and an image has a z-index of 3, the image will be displayed overtop of the heading.*/
   z-index: 3;
+  /* what you would expect. changes the size of the fonts used.*/
   font-size: larger;
 }
 h2 {
   color: rgb(24, 24, 24);
+  /* text-decoration sounds fairly self explanatory. this one in particular adds an underline to each letter in the h2.*/
   text-decoration: underline;
+  /* font-family describes which fonts you want your website to use. 
+  multiple fonts are listed so if a browser cannot use one, than you have backups.*/
   font-family: Arial, Helvetica, sans-serif;
 }
 a:link {
   text-decoration: none;
 }
 a:hover {
+  /* a:hover applies to a link whenever the mouse hovers overtop of it.*/
   color: rgb(151, 0, 0);
 }
 a:visited {
+  /* a:visited changes the color of a link once the link has been clicked.*/
   color: rgb(0, 9, 131);
 }
