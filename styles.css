@@ -15,12 +15,14 @@ h1 {
   height: 100px;
   /* text shadows give a shadow effect to the H1 background, giving depth*/
   text-shadow: 5px 5px rgb(93, 138, 168);
+  font-weight: bold;
 }
 p {
   color: rgb(24, 24, 24);
   /* font-family describes which fonts you want your website to use. 
   multiple fonts are listed so if a browser cannot use one, than you have backups.*/
   font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
 body {
   /* Every version of background-image fuffils the same goal, to have a background image sent to the webpage. 
@@ -29,6 +31,18 @@ body {
   /* This tag ensures that the background will cover the entire screen, to make sure there is no jarring change in the background,
    which would take away from the content.*/
   background-size: cover;
+
+  animation: fadeInAnimation ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 ul {
   /* list-style-type refers to the styling that is inherent within the UL elements. */
