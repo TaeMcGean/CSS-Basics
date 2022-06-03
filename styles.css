@@ -82,9 +82,5 @@ a:link {
 }
 a:hover {
   /* a:hover applies to a link whenever the mouse hovers overtop of it.*/
-  color: rgb(151, 0, 0);
-}
-a:visited {
-  /* a:visited changes the color of a link once the link has been clicked.*/
-  color: rgb(0, 9, 131);
+  color: rgb(216, 0, 0);
 }
