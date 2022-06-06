@@ -32,10 +32,12 @@ body {
    which would take away from the content.*/
   background-size: cover;
 
-  animation: fadeInAnimation ease 1s;
+  /* This animation takes place when a page is opened. it fades in, and as the time goes on, it increases in opacity until the page is completely visible.*/
+  animation: fadeInAnimation ease 1.5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
+/* These keyframes help the animation work correctly. as you can see, these keyframes in particular increase the opacity */
 @keyframes fadeInAnimation {
   0% {
     opacity: 0;
